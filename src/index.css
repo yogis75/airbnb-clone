@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  height: 70px;
+  padding: 20px 36px;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
