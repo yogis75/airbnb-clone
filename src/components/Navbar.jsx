@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav class="navbar">
+    <nav className="navbar">
       <img src="/src/images/airbnb.png" alt="" />
     </nav>
   );

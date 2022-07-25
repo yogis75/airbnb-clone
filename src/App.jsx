@@ -5,15 +5,16 @@ import Card from "./components/Card";
 import data from "./data";
 
 function App() {
-  const cards = data.map((card) => (
+  const cards = data.map((item) => (
     <Card
-      key={card.id}
-      img={card.coverImg}
-      title={card.title}
-      rating={card.stats.rating}
-      reviewCount={card.stats.reviewCount}
-      price={card.price}
-      location={card.location}
+      key={item.id}
+      img={item.coverImg}
+      title={item.title}
+      rating={item.stats.rating}
+      reviewCount={item.stats.reviewCount}
+      price={item.price}
+      location={item.location}
+      openSpots={item.openSpots}
     />
   ));
   return (
